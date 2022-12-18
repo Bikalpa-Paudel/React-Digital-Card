@@ -1,11 +1,16 @@
 import './App.css';
+import Main from "./components/Main"
+import About from "./components/About"
+import Intrest from "./components/Intrest"
+import Social from "./components/Social"
 
-function App() {
-  return (
-    <div className="App">
-       <h1>Hi world </h1>
-    </div>
-  );
+export default function App() {
+    return(
+        <>
+            <Main />
+            <About />
+            <Intrest />
+            <Social />
+        </>
+    )
 }
-
-export default App;
