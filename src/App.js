@@ -7,10 +7,12 @@ import Social from "./components/Social"
 export default function App() {
     return(
         <>
+          <div className="container">
             <Main />
             <About />
             <Intrest />
             <Social />
+          </div>
         </>
     )
 }
